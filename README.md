@@ -6,13 +6,18 @@ client offloads some computation to a server (edge server) which in turn distrib
 Client ---TCP--- edge server ----UDP---- bitwise or/and computation 
 
 
-make all Compiles all
+make all compiles all
 
-make server_or Runs server_or server 
+make server_or compiles server_or server 
 
-make server_and Runs server_and server 
+make server_and compiles server_and server 
 
-make edge Runs edge server 
+make edge compiles edge server 
 
 ./client <input_file_name> Starts the client with job file like job.txt
 
+./edge
+
+./server_and
+
+./server_or
