@@ -6,7 +6,7 @@ client offloads some computation to a server (edge server) which in turn distrib
 Client ---TCP--- edge server ----UDP---- bitwise or/and computation 
 
 
-make all Compiles
+make all Compiles all
 
 make server_or Runs server_or server 
 
